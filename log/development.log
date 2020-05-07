@@ -89,3 +89,845 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3063)
 
 
+Started GET "/" for ::1 at 2020-05-07 14:08:29 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3057)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:08:51 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3054)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:08:57 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3053)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:09:11 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3051)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:09:11 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3047)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:09:13 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3058)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:09:44 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3051)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:09:45 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3054)
+
+
+Started GET "/" for ::1 at 2020-05-07 14:12:23 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 206)
+Completed 200 OK in 39ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 6253)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:25:35 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 206)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 7919)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_nav_bar, application/_nav_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <%= render "nav_bar" %>
+    14:     <%= yield %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 15:26:11 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 90)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5400)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_nav_bar, application/_nav_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <%= render "nav_bar" %>
+    14:     <%= yield %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 15:26:13 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3847)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_nav_bar, application/_nav_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <%= render "nav_bar" %>
+    14:     <%= yield %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 15:26:29 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 85)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5126)
+
+
+  
+ActionView::Template::Error (Missing partial ./_nav_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <%= render "./nav_bar" %>
+    14:     <%= yield %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 15:26:45 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 84)
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 146)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 4426)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:26:52 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 84)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 4068)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:27:28 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3072)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:28:13 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3066)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:28:31 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3065)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:32:00 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3073)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:32:40 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3069)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:03 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3065)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:03 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3063)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:15 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3066)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:15 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3065)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:16 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3066)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:17 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3069)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:34 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 89)
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 146)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4421)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:33:40 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 84)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5117)
+
+
+  
+ActionView::Template::Error (Missing partial /_nav_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <%= render "/nav_bar" %>
+    14:     <%= yield %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 15:33:52 +0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 84)
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 146)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4426)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:39:47 +0800
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ProductsController):
+  
+actionpack (6.0.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-07 15:40:01 +0800
+Processing by ProductsController#index as HTML
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms | Allocations: 2324)
+
+
+  
+ActionController::MissingExactTemplate (ProductsController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.3) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-07 15:41:44 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 143)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4403)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:41:50 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 80)
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 143)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4433)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:44:17 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 144)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4387)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:45:22 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 77)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 145)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4447)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:55:45 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 115)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4400)
+
+
+Started GET "/" for ::1 at 2020-05-07 15:56:20 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 114)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4398)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:00:05 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3147)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:02:35 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 121)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 4407)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:03:32 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 1373)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5646)
+
+
+  
+ActionView::Template::Error (Missing partial shared/frontend/_search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:     <%= render "shared/frontend/search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:05:00 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1370)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5644)
+
+
+  
+ActionView::Template::Error (Missing partial shared/frontend/_search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:       <%= render "shared/frontend/search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:05:39 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1369)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 5643)
+
+
+  
+ActionView::Template::Error (Missing partial shared/frontend/_search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:       <%= render "shared/frontend/search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:05:49 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1366)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5640)
+
+
+  
+ActionView::Template::Error (Missing partial /_search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:       <%= render "/search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:05:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 1640)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5914)
+
+
+  
+ActionView::Template::Error (Missing partial products/_search_bar, application/_search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:       <%= render "search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:05:54 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 958)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4084)
+
+
+  
+ActionView::Template::Error (Missing partial products/_search_bar, application/_search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:       <%= render "search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:06:05 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1371)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 5645)
+
+
+  
+ActionView::Template::Error (Missing partial shared/frontend/__search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:       <%= render "shared/frontend/_search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:06:26 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1369)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 5643)
+
+
+  
+ActionView::Template::Error (Missing partial shared/frontend/_search_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+    13: 
+    14:   <div id="navbarBasicExample" class="navbar-menu">
+    15:     <div class="navbar-start">
+    16:       <%= render "shared/frontend/search_bar" %>
+    17:     </div>
+    18:     <div class="navbar-end">
+    19:       <div class="navbar-item">
+  
+app/views/shared/frontend/_nav_bar.html.erb:16
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-07 16:08:51 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 125)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4419)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:09:19 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 124)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4423)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:09:29 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 124)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4412)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:09:30 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3144)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:11:40 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 124)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4410)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:11:40 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3148)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:12:40 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 124)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4405)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:12:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3144)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:12:47 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 124)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 4406)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:12:48 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3153)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:39:20 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3149)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:39:20 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3146)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:39:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 13.7ms | Allocations: 1050)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 5338)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:43:23 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 879)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 4024)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:43:23 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 879)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4017)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:43:55 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 879)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 4018)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:43:55 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.5ms | Allocations: 879)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4016)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:44:00 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 879)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 4020)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:44:00 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 879)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 4018)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:44:02 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 879)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 4020)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:44:02 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 879)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 4018)
+
+
