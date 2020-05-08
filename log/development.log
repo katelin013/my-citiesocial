@@ -931,3 +931,1737 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 4018)
 
 
+Started GET "/" for ::1 at 2020-05-07 16:45:19 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.9ms | Allocations: 879)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4018)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:45:19 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 879)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4020)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:45:21 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 879)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4020)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:45:22 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 13.8ms | Allocations: 879)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 4023)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:45:38 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 879)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4014)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:45:38 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 879)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 4015)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:48:17 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 77)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1039)
+  Rendered shared/frontend/_tabs.html.erb (Duration: 0.2ms | Allocations: 93)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5654)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:49:16 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1039)
+  Rendered shared/frontend/_tabs.html.erb (Duration: 0.3ms | Allocations: 98)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 5632)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:50:20 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1039)
+  Rendered shared/frontend/_tabs.html.erb (Duration: 0.2ms | Allocations: 94)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 5620)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:50:42 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1039)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 96)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 5628)
+
+
+Started GET "/" for ::1 at 2020-05-07 16:52:08 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1039)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 137)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 5984)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:31:24 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 26.1ms | Allocations: 191)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.8ms | Allocations: 1052)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.7ms | Allocations: 100)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 137)
+Completed 200 OK in 60ms (Views: 52.8ms | ActiveRecord: 0.0ms | Allocations: 8455)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:56:00 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered products/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 401)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 4.0ms | Allocations: 1038)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.8ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.8ms | Allocations: 134)
+Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 6306)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:56:00 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.3ms | Allocations: 878)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4202)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:56:02 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 878)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 4201)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:56:17 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 86)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.1ms | Allocations: 1039)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 5996)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:56:59 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.5ms | Allocations: 100)
+  Rendered products/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 400)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.0ms | Allocations: 1038)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 6306)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:59:10 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.7ms | Allocations: 880)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4213)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:59:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.4ms | Allocations: 882)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4212)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:59:29 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 884)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 4217)
+
+
+Started GET "/" for ::1 at 2020-05-08 10:59:36 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 76)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 886)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4227)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:00:16 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 888)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4226)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:01:01 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4230)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:03:30 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 39.7ms | Allocations: 6825)
+  Rendered products/index.html.erb within layouts/application (Duration: 41.0ms | Allocations: 7132)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 8820)
+
+
+  
+ActionView::Template::Error (Webpacker can't find splash_1 in /Users/xuyaolin/Documents/ruby/my_citiesocail/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-203585e4bc008a7cdf56.js",
+  "application.js.map": "/packs/js/application-203585e4bc008a7cdf56.js.map",
+  "application_bd.js": "/packs/js/application_bd-ac2e881a7c14548b0977.js",
+  "application_bd.js.map": "/packs/js/application_bd-ac2e881a7c14548b0977.js.map",
+  "entrypoints": {
+    "application_bd": {
+      "js": [
+        "/packs/js/application_bd-ac2e881a7c14548b0977.js"
+      ],
+      "js.map": [
+        "/packs/js/application_bd-ac2e881a7c14548b0977.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/application-203585e4bc008a7cdf56.js"
+      ],
+      "js.map": [
+        "/packs/js/application-203585e4bc008a7cdf56.js.map"
+      ]
+    }
+  },
+  "media/images/logo.png": "/packs/media/images/logo-a556d79fb4113fba6529b4c950652c88.png",
+  "media/images/splash_1.jpg": "/packs/media/images/splash_1-2cd79d37d34cb413b4b424b1f0f7781e.jpg",
+  "media/images/splash_2.jpg": "/packs/media/images/splash_2-788fea94c943c3de72f8239ef48e85a3.jpg",
+  "media/images/splash_3.jpg": "/packs/media/images/splash_3-10aab1adb32127b20cd8ade85c33e510.jpg",
+  "media/images/splash_4.jpg": "/packs/media/images/splash_4-ddf8a0e587ad9f8cc60e278e436224b1.jpg",
+  "media/images/splash_5.jpg": "/packs/media/images/splash_5-28cc355193b38565fb9fe62452699d93.jpg",
+  "media/images/splash_6.jpg": "/packs/media/images/splash_6-6c6ea9bf726f86ee835054b9f1c0424c.jpg"
+}
+):
+    3:     <!-- Start Carousel -->
+    4:     <div id="carousel-demo" class="carousel">
+    5:       <div class="item-1">
+    6:         <%= image_pack_tag 'splash_1' %>
+    7:       </div>
+    8:       <div class="item-2">
+    9:         <%= image_pack_tag 'splash_2' %>
+  
+app/views/shared/frontend/_carousel.html.erb:6
+app/views/products/index.html.erb:1
+Started GET "/" for ::1 at 2020-05-08 11:04:03 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.8ms | Allocations: 5700)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5999)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 11830)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:07:11 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:07:25 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 19.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 9597)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:10:43 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.0ms | Allocations: 5684)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 6115)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 5.0ms | Allocations: 1055)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.4ms | Allocations: 100)
+  Rendered shared/frontend/_footer.html.erb (Duration: 1.0ms | Allocations: 137)
+Completed 200 OK in 43ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 14322)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:11:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.0ms | Allocations: 5479)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 5549)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9613)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:11:46 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 24.8ms | Allocations: 5479)
+  Rendered products/index.html.erb within layouts/application (Duration: 25.4ms | Allocations: 5549)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:12:28 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:12:30 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 5548)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 9602)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:12:35 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:12:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:12:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 21.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 21.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:13:01 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:13:40 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:13:45 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:13:48 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 13.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 13.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 9608)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:15:04 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 32.3ms | Allocations: 5684)
+  Rendered products/index.html.erb within layouts/application (Duration: 34.3ms | Allocations: 6115)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 1055)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.9ms | Allocations: 100)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 137)
+Completed 200 OK in 62ms (Views: 54.5ms | ActiveRecord: 0.0ms | Allocations: 14328)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:16:13 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 21.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 22.1ms | Allocations: 5548)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:16:22 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 22.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 22.3ms | Allocations: 5548)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 5.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:16:23 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:16:30 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 21.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 21.4ms | Allocations: 5548)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.6ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:16:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 9622)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:16:47 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 9597)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:17:03 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 9.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:17:12 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:17:24 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.8ms | Allocations: 5499)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5597)
+Started GET "/" for ::1 at 2020-05-08 11:17:24 +0800
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 10585)
+
+
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 5548)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:17:31 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:17:57 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:18:43 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5695)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 6001)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.5ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.6ms | Allocations: 134)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 11837)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:19:12 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.8ms | Allocations: 5695)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5993)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 11821)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:19:13 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:19:35 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.7ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 9610)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:20:10 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:20:15 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:20:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:20:20 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:20:24 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 16.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:20:40 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:20:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.7ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:21:01 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 16.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:21:08 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 21.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 22.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 10.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:22:27 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:22:27 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.6ms | Allocations: 5476)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 5545)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:22:42 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:23:39 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 9609)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:23:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.7ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 9597)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:24:08 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:24:08 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:24:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 9602)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:00 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:12 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 9602)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:19 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:27 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 11.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 9599)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:31 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 9599)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:39 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:46 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:51 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 8.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 9610)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:56 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:25:59 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:26:00 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.1ms | Allocations: 5476)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5545)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:26:01 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:26:14 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:26:43 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:26:52 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:26:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 9617)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:28:34 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:28:50 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:28:52 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:10 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:11 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:11 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.0ms | Allocations: 5476)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 5545)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:12 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 13.7ms | Allocations: 5476)
+  Rendered products/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 5545)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 9608)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:12 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.3ms | Allocations: 5476)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 5545)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:22 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 9610)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:22 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:38 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:42 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 17.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:29:47 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 9599)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:30:02 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 11.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:30:13 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:30:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:30:23 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:30:27 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 12.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:52:21 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 9608)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:52:57 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:12 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 9602)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:15 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:22 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 13.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:26 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:27 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 11.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:31 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:34 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 9599)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:45 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:47 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:54 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 16.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 9599)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:53:56 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:54:15 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 9597)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:54:25 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 11.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:54:30 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 9608)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:59:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:59:23 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 11.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:59:34 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 9602)
+
+
+Started GET "/" for ::1 at 2020-05-08 11:59:50 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 9599)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:01:36 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 4.9ms | Allocations: 5694)
+  Rendered products/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 5998)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 11829)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:01:50 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.1ms | Allocations: 5689)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 5993)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 11825)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:01 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.2ms | Allocations: 5688)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 5986)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 11813)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:04 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 9610)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:33 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 12.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 19.4ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:47 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.8ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 9596)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:48 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 9610)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:56 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 26.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 26.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:02:57 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:05:25 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:06:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 13.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:06:19 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 9602)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:06:35 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.2ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:06:41 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:06:43 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.3ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:16:17 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 7.2ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 9606)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:16:22 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 15.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.3ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:16:27 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.6ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 9616)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:16:34 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 9598)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:17:03 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 9604)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:17:34 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.1ms | Allocations: 5694)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 6000)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 134)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 11830)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:17:37 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:17:40 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.9ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:17:42 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.0ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 9607)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:17:45 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.5ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 9603)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:22:11 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5690)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 5994)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.9ms | Allocations: 1050)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.8ms | Allocations: 134)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 11829)
+
+
+Started GET "/" for ::1 at 2020-05-08 12:22:12 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.1ms | Allocations: 5478)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 5547)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 890)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 9605)
+
+
