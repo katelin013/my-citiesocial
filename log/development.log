@@ -3402,3 +3402,860 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 9740)
 
 
+Started GET "/" for ::1 at 2020-05-08 15:05:16 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.6ms | Allocations: 5740)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 6892)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1066)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 137)
+Completed 200 OK in 34ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 15223)
+
+
+  [1m[35m (29.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(799706020247190630)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20200508071153)
+  [1m[35m (3.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200508071153"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-08 07:12:04.636324"], ["updated_at", "2020-05-08 07:12:04.636324"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(799706020247190630)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-05-08 15:12:19 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.0ms | Allocations: 5740)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.4ms | Allocations: 169)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 6892)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1066)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 137)
+Completed 200 OK in 31ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 15220)
+
+
+Started GET "/" for ::1 at 2020-05-08 15:12:25 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.5ms | Allocations: 5547)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 5757)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 901)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 9845)
+
+
+Started GET "/" for ::1 at 2020-05-08 15:12:31 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.4ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 5756)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 901)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 9841)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:15:22 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 216)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 998.6ms | Allocations: 789328)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1083)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 1029ms (Views: 1010.2ms | ActiveRecord: 3.0ms | Allocations: 801650)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:15:39 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2296)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1083)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 8914)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:15:40 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1075)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 5453)
+
+
+Started GET "/" for ::1 at 2020-05-08 15:15:42 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.6ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.4ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 6773)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 901)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 11519)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:15:44 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1074)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5450)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 15:15:45 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 215)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2026)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 7629)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:15:46 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1074)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 5440)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 15:15:47 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1060)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 5495)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:15:47 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1065)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5432)
+
+
+Started GET "/" for ::1 at 2020-05-08 15:15:49 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.2ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 5755)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 901)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 9838)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:16:33 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1065)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.8ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 5434)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:16:45 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2298)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.8ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 8917)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:20:32 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2310)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.8ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 8914)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:20:49 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2304)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 8902)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:20:50 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1074)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 5446)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:22:51 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2304)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 8902)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:22:53 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1074)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 5448)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:24:09 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2309)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 8920)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:29:08 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3303)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 9800)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:31:38 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3318)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 9812)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:31:53 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3308)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.8ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 9802)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:31:53 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2052)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6315)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:33:09 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3308)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 9801)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:33:10 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2052)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6319)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:33:32 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 3308)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 9808)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:33:32 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2052)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6319)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:52:45 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.3ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3316)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 9821)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:55:29 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 21.2ms | Allocations: 8256)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 10544)
+
+
+  
+ActionView::Template::Error (Webpacker can't find cats/cat-register.jpeg in /Users/xuyaolin/Documents/ruby/my_citiesocail/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-132bf21ce9eb49463716.js",
+  "application.js.map": "/packs/js/application-132bf21ce9eb49463716.js.map",
+  "application_bd.js": "/packs/js/application_bd-bcff623bf14deb0aa13d.js",
+  "application_bd.js.map": "/packs/js/application_bd-bcff623bf14deb0aa13d.js.map",
+  "entrypoints": {
+    "application_bd": {
+      "js": [
+        "/packs/js/application_bd-bcff623bf14deb0aa13d.js"
+      ],
+      "js.map": [
+        "/packs/js/application_bd-bcff623bf14deb0aa13d.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/application-132bf21ce9eb49463716.js"
+      ],
+      "js.map": [
+        "/packs/js/application-132bf21ce9eb49463716.js.map"
+      ]
+    }
+  },
+  "media/images/logo.png": "/packs/media/images/logo-a556d79fb4113fba6529b4c950652c88.png",
+  "media/images/splash_1.jpg": "/packs/media/images/splash_1-2cd79d37d34cb413b4b424b1f0f7781e.jpg",
+  "media/images/splash_2.jpg": "/packs/media/images/splash_2-788fea94c943c3de72f8239ef48e85a3.jpg",
+  "media/images/splash_3.jpg": "/packs/media/images/splash_3-10aab1adb32127b20cd8ade85c33e510.jpg",
+  "media/images/splash_4.jpg": "/packs/media/images/splash_4-ddf8a0e587ad9f8cc60e278e436224b1.jpg",
+  "media/images/splash_5.jpg": "/packs/media/images/splash_5-28cc355193b38565fb9fe62452699d93.jpg",
+  "media/images/splash_6.jpg": "/packs/media/images/splash_6-6c6ea9bf726f86ee835054b9f1c0424c.jpg"
+}
+):
+    32:     </div>
+    33: 
+    34:     <div class="column is-9">
+    35:       <%= image_pack_tag 'cats/cat-register.jpeg' %>
+    36:     </div>
+    37:   </div>
+    38: 
+  
+app/views/devise/registrations/new.html.erb:35
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:56:07 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3384)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.9ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.8ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.7ms | Allocations: 134)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 9899)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:58:18 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1355)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3517)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<section class="container">
+  <div class="columns">
+  <div class="is-3">
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+
+        <div class="field">
+          <%= f.label :email class: 'label'%>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password class: 'label'%>
+          <% if @minimum_password_length %>
+          <em>(<%= @minimum_password_length %> characters minimum)</em>
+          <% end %><br />
+          <%= f.password_field :password, autocomplete: "new-password" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password_confirmation class: 'label'%>
+          <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "Sign up" %>
+        </div>
+      <% end %>
+
+      <%= render "devise/shared/links" %>
+    </div>
+    <div class="is-9">
+      <%= image_pack_tag 'splash_1.jpg' %>
+    </div>
+
+  </div>
+</section>
+
+
+):
+1:    
+2:    <section class="container">
+3:      <div class="columns">
+4:      <div class="is-3">
+5:          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+6:            <%= render "devise/shared/error_messages", resource: resource %>
+7:    
+8:            <div class="field">
+9:              <%= f.label :email class: 'label'%>
+10:              <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+11:            </div>
+12:    
+13:            <div class="field">
+14:              <%= f.label :password class: 'label'%>
+15:              <% if @minimum_password_length %>
+16:              <em>(<%= @minimum_password_length %> characters minimum)</em>
+17:              <% end %><br />
+18:              <%= f.password_field :password, autocomplete: "new-password" %>
+19:            </div>
+20:    
+21:            <div class="field">
+22:              <%= f.label :password_confirmation class: 'label'%>
+23:              <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+24:            </div>
+25:    
+26:            <div class="actions">
+27:              <%= f.submit "Sign up" %>
+28:            </div>
+29:          <% end %>
+30:    
+31:          <%= render "devise/shared/links" %>
+32:        </div>
+33:        <div class="is-9">
+34:          <%= image_pack_tag 'splash_1.jpg' %>
+35:        </div>
+36:    
+37:      </div>
+38:    </section>
+  
+app/views/devise/registrations/new.html.erb:9: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:14: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:22: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:9: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:14: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:22: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:9: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:14: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:22: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:9: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:14: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:22: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:9: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:14: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:22: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:9: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:14: syntax error, unexpected class, expecting ')'
+app/views/devise/registrations/new.html.erb:22: syntax error, unexpected class, expecting ')'
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:58:46 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3351)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.9ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 134)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 9862)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:59:22 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3372)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 9874)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 15:59:54 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3374)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 9873)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:00:48 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3382)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9877)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:02:57 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3382)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 135)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 9878)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:03:53 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2108)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6367)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:05:39 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 211)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 20.1ms | Allocations: 3392)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 135)
+Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 9892)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:13:43 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3382)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.5ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 9884)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:13:45 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2395)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7394)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:13:52 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2938)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 9510)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:13:53 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 2832)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 7741)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:14:03 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2047)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 6381)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:14:09 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2938)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.0ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 9517)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:14:38 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2964)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 9540)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:14:39 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2065)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 6401)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:14:45 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2832)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 18.0ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 0.0ms | Allocations: 7744)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:14:46 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2065)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 922)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 6404)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:15:11 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2986)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 9571)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:20:17 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2992)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.9ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 1.0ms | Allocations: 134)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 9562)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:24:33 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2992)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 1188)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 9670)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:24:34 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2087)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 987)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6489)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:24:56 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2833)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.3ms | Allocations: 987)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 7812)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:24:57 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 2087)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 987)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 6483)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 16:24:58 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2103)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.2ms | Allocations: 982)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 6424)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 16:24:58 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2078)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 982)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6468)
+
+
