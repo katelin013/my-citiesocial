@@ -5154,3 +5154,744 @@ Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 113
 
   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/admin/products" for ::1 at 2020-05-11 16:57:37 +0800
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for Admin::ProductsController):
+  
+actionpack (6.0.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/products" for ::1 at 2020-05-11 16:57:47 +0800
+Processing by Admin::ProductsController#index as HTML
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms | Allocations: 2767)
+
+
+  
+ActionController::MissingExactTemplate (Admin::ProductsController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.3) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/products" for ::1 at 2020-05-11 16:58:15 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application
+  Rendered admin/products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 23.8ms | Allocations: 10355)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 36ms (Views: 23.4ms | ActiveRecord: 10.6ms | Allocations: 15488)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:03:58 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application
+  Rendered admin/products/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 79)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 4.8ms | Allocations: 2383)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 134)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.7ms | Allocations: 7500)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:04:26 +0800
+Processing by Admin::ProductsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2341)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/backend with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/devise-4.7.1/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+):
+  
+actionview (6.0.3) lib/action_view/path_set.rb:48:in `find'
+actionview (6.0.3) lib/action_view/lookup_context.rb:131:in `find'
+actionview (6.0.3) lib/action_view/renderer/template_renderer.rb:94:in `resolve_layout'
+actionview (6.0.3) lib/action_view/renderer/template_renderer.rb:101:in `resolve_layout'
+actionview (6.0.3) lib/action_view/renderer/template_renderer.rb:80:in `find_layout'
+actionview (6.0.3) lib/action_view/renderer/template_renderer.rb:64:in `render_with_layout'
+actionview (6.0.3) lib/action_view/renderer/template_renderer.rb:56:in `render_template'
+actionview (6.0.3) lib/action_view/renderer/template_renderer.rb:13:in `render'
+actionview (6.0.3) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.0.3) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.0.3) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.0.3) lib/action_view/base.rb:304:in `in_rendering_context'
+actionview (6.0.3) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.0.3) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.0.3) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.0.3) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.0.3) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+activesupport (6.0.3) lib/active_support/core_ext/benchmark.rb:14:in `block in ms'
+/Users/xuyaolin/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.0.3) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:34:in `cleanup_view_runtime'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+actionpack (6.0.3) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/products" for ::1 at 2020-05-11 17:04:52 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3834)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:06:00 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.6ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 144)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4187)
+
+
+Started GET "/" for ::1 at 2020-05-11 17:06:10 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5755)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.7ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.5ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 6759)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 17.9ms | Allocations: 10268)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 134)
+Completed 200 OK in 37ms (Views: 31.1ms | ActiveRecord: 5.2ms | Allocations: 21937)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:06:58 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.2ms | Allocations: 84)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 144)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 4193)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:06:59 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3159)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:07:00 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3150)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:08:12 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3150)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:08:18 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3158)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:08:18 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3160)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:08:20 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3156)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:08:21 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3149)
+
+
+Started GET "/admin" for ::1 at 2020-05-11 17:08:24 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/products" for ::1 at 2020-05-11 17:08:25 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3154)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:08:25 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3152)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:09:02 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.5ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4184)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:10:59 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3160)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:09 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3147)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:10 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.1ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3151)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:10 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3157)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:21 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3851)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:21 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3144)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:22 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3149)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:24 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3154)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:25 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3149)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:26 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3154)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:40 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3161)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:51 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3202)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:11:58 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3193)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:12:11 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3187)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:13:12 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.7ms | Allocations: 84)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4184)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:13:29 +0800
+Processing by Admin::ProductsController#index as HTML
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.6ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 109)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4177)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:19:28 +0800
+Processing by Admin::ProductsController#index as HTML
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms | Allocations: 53193)
+
+
+  
+NoMethodError (undefined method `authenticate!' for #<Admin::ProductsController:0x00007f8ba394a800>
+Did you mean?  authenticate_user!):
+  
+activesupport (6.0.3) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.3) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/products" for ::1 at 2020-05-11 17:21:02 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 24ms (Views: 5.3ms | ActiveRecord: 5.3ms | Allocations: 13625)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:21:04 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 4664)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:21:11 +0800
+Processing by Admin::ProductsController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 17:21:11 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 653)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3118)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.8ms | Allocations: 1403)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.8ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 1.1ms | Allocations: 134)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 9812)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:25:29 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 21ms (Views: 4.6ms | ActiveRecord: 2.6ms | Allocations: 13370)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:25:30 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 4662)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:25:30 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 10ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 4666)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:27:22 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 23ms (Views: 4.8ms | ActiveRecord: 3.2ms | Allocations: 13403)
+
+
+Started GET "/admin/products" for ::1 at 2020-05-11 17:27:22 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 4665)
+
+
+Started GET "/admin/" for ::1 at 2020-05-11 17:29:40 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.1ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 20ms (Views: 4.1ms | ActiveRecord: 3.1ms | Allocations: 13368)
+
+
