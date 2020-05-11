@@ -4259,3 +4259,898 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6468)
 
 
+Started GET "/users/sign_in" for ::1 at 2020-05-11 14:02:05 +0800
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 653)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 190.6ms | Allocations: 185840)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.8ms | Allocations: 1193)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 100)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 137)
+Completed 200 OK in 240ms (Views: 212.6ms | ActiveRecord: 11.5ms | Allocations: 200759)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 14:06:44 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2997)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.9ms | Allocations: 1379)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.7ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.6ms | Allocations: 134)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 9887)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 14:07:46 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2992)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.5ms | Allocations: 1363)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 9839)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 14:07:47 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2089)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 1043)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6556)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-11 14:07:49 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 215)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 124)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2920)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 1043)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 8064)
+
+
+Started POST "/users" for ::1 at 2020-05-11 14:07:58 +0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"1CRdv049vK77EQo1qoXePEEKXnZQKbPnBm2RXQaowMPv2agrkex9gpq8QeSt1D0S7nDxZZp0QY77sdEjvxiRZQ==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (3.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (7.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (11.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "test@gmail.com"], ["encrypted_password", "$2a$11$sLpx4AcRy3jaKgmXJKsN0OkFyiLtogLHdOJO/zSZ4txd1/0LHkW/u"], ["created_at", "2020-05-11 06:07:58.792722"], ["updated_at", "2020-05-11 06:07:58.792722"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 160ms (ActiveRecord: 23.9ms | Allocations: 10940)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:07:58 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.7ms | Allocations: 5716)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.6ms | Allocations: 166)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.5ms | Allocations: 105)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 6741)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 4.9ms | Allocations: 2070)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.7ms | Allocations: 12733)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-05-11 14:09:53 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"eptTa2BC6IVr42gUehPmQvvs/2RTshDj0lG8ZFImSh9YIHIeQE4tUR07+Gki7chdwk9w3W6sYJxxgmb2k7XriA=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 41ms (ActiveRecord: 0.4ms | Allocations: 5450)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:09:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.9ms | Allocations: 5544)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 5753)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1053)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 9994)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 14:09:55 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2087)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 1043)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 6554)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-05-11 14:10:04 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"isacNY+3aG+YLaBXumPyYUGApOrxsSIoKEH8EVRoYBTcDkDRCzPlTlRLWLF+vvpxGHaq0qRaBKfUx7W+kjR/WQ==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (6.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 125ms (ActiveRecord: 6.2ms | Allocations: 3731)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:10:04 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.7ms | Allocations: 5544)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 5753)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.2ms | Allocations: 1927)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms | Allocations: 10884)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:11:57 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.3ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.6ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.4ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 6763)
+  Rendered shared/_flash.html.erb (Duration: 0.7ms | Allocations: 91)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 4.3ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.8ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.7ms | Allocations: 134)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.3ms | Allocations: 14251)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:12:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.3ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.4ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 6757)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | Allocations: 88)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.9ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.3ms | Allocations: 14233)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:16 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.3ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.7ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.5ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 6757)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 89)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 4.1ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.6ms | Allocations: 134)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.3ms | Allocations: 14223)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:17 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.0ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.6ms | Allocations: 1936)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.2ms | Allocations: 10960)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:19 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.2ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.5ms | Allocations: 1928)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.1ms | Allocations: 10957)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:20 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.5ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.8ms | Allocations: 1928)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.2ms | Allocations: 10954)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:27 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.6ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 6765)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 88)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.0ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.2ms | Allocations: 14243)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:28 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.7ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.5ms | Allocations: 1936)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms | Allocations: 10962)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:43 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.8ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 6757)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 87)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.9ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.2ms | Allocations: 14237)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:43 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.5ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.3ms | Allocations: 1936)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.2ms | Allocations: 10956)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:44 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.6ms | Allocations: 1928)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.2ms | Allocations: 10952)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:45 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.1ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.5ms | Allocations: 1928)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.2ms | Allocations: 10948)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:52 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.6ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 6757)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 87)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.3ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.3ms | Allocations: 14231)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:13:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 7.3ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.9ms | Allocations: 1936)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.3ms | Allocations: 10964)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:14:35 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.8ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.6ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.5ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 6757)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 87)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.6ms | Allocations: 2265)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.5ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 134)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms | Allocations: 14234)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:14:36 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 26.5ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 26.9ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 5)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.2ms | Allocations: 1939)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.2ms | Allocations: 10973)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:14:52 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.7ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 6765)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 87)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.7ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.3ms | Allocations: 14248)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:15:23 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.6ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.4ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 6757)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | Allocations: 122)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.6ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms | Allocations: 14261)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:15:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.3ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 6757)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.4ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.2ms | Allocations: 13935)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:15:54 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.9ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 5755)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.7ms | Allocations: 1936)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.2ms | Allocations: 10903)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-05-11 14:15:59 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oSDKiOskxiRevd2Iykf3ka/fbK0Yms/6Hr8FZtoOz97tRyQ3MOcMXBYxZonHlCXR8qKEPIvzfxoAMrXdPsokJg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 2511)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:15:59 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.9ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.8ms | Allocations: 111)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 1058)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 10333)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 14:16:02 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2993)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.2ms | Allocations: 1043)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 8503)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-05-11 14:16:08 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"3Vfj7yqdzrBnhv5D5GjXI2LyK4Vve0su/MSqdi1FRn0XbZ3NnGzQP+zbUls7n94Pbx5/VnNFiKUjm/Z0ESt41Q==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 118ms (ActiveRecord: 0.3ms | Allocations: 4175)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:16:08 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 5.9ms | Allocations: 5547)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 5756)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 9)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.5ms | Allocations: 1935)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.2ms | Allocations: 10979)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:18:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.2ms | Allocations: 5756)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.7ms | Allocations: 163)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.5ms | Allocations: 102)
+  Rendered products/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 6757)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.3ms | Allocations: 2255)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.5ms | Allocations: 94)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.2ms | Allocations: 13933)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:20:21 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 48.6ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 49.3ms | Allocations: 5755)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 10.2ms | Allocations: 1938)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.7ms | Allocations: 10891)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-05-11 14:20:25 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Os9VcE0ixEIEVmFHOSAk+u3xj5505rqTC8q5DhgvtQ7ta92AY3IqyiwwRoUSIOmnsfTj4AmAQOmaFaUS9TCdTQ=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms | Allocations: 2518)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:20:25 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.8ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 5755)
+  Rendered shared/_flash.html.erb (Duration: 0.9ms | Allocations: 115)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.3ms | Allocations: 1058)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 10330)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 14:20:29 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 546)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2993)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 1043)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 8504)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-05-11 14:20:35 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"wPF+iiJHM7DKFc6L3jWOgMGx+Ff7Ry7vSKtTLWx53sKdzEdYeM+43u4Fe8siCOjo+QesCcrzYQLqcdj0h5lQXA==", "user"=>{"email"=>"test@gmail", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test@gmail"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.5ms | Allocations: 2268)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"wPF+iiJHM7DKFc6L3jWOgMGx+Ff7Ry7vSKtTLWx53sKdzEdYeM+43u4Fe8siCOjo+QesCcrzYQLqcdj0h5lQXA==", "user"=>{"email"=>"test@gmail", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2088)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 1003)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 117ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6067)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-05-11 14:20:39 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"9WJLzAk7JDXkO24tFkwB2Isz8nI++ArsfWTNkcaqqDWOPl8RLAfv1mQULeWAPj44LRitKNejWB35ZbcdwBo1HQ==", "user"=>{"email"=>"test@gmail", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test@gmail"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.5ms | Allocations: 2256)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"9WJLzAk7JDXkO24tFkwB2Isz8nI++ArsfWTNkcaqqDWOPl8RLAfv1mQULeWAPj44LRitKNejWB35ZbcdwBo1HQ==", "user"=>{"email"=>"test@gmail", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2081)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 1003)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 117ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 6038)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-05-11 14:20:43 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"wELM4QsXZZU7f1NFVv9I+XtAvSSP8MqtH8XYTvQOHb27Htg8LiuudrtQEI3AjXcZ3WvifmarmFybxKLC8r6AlQ==", "user"=>{"email"=>"test@gmail", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test@gmail"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.3ms | Allocations: 2243)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"wELM4QsXZZU7f1NFVv9I+XtAvSSP8MqtH8XYTvQOHb27Htg8LiuudrtQEI3AjXcZ3WvifmarmFybxKLC8r6AlQ==", "user"=>{"email"=>"test@gmail", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2081)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 1003)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 119ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6038)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-05-11 14:20:53 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Z+79ol86PAqzsRRTpidIDBq/pmsRTrBbuI8+0L3imWscsul/egb36TOeV5swVXfsvJT5MfgV4qo8jkRcu1IEQw==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 118ms (ActiveRecord: 0.6ms | Allocations: 4156)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:20:53 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.4ms | Allocations: 5544)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 5753)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 9)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.3ms | Allocations: 1935)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 10977)
+
+
+Started GET "/" for ::1 at 2020-05-11 14:39:46 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.0ms | Allocations: 5546)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 5755)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.8ms | Allocations: 2028)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.6ms | Allocations: 10980)
+
+
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(799706020247190630)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddOmniauthToUsers (20200511070333)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.4ms)[0m  [1m[35mALTER TABLE "users" ADD "provider" character varying[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "uid" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200511070333"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(799706020247190630)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-05-11 15:49:09 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 9.0ms | Allocations: 5788)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.6ms | Allocations: 169)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.6ms | Allocations: 105)
+  Rendered products/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 6940)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 22.6ms | Allocations: 9793)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 97)
+  Rendered shared/frontend/_footer.html.erb (Duration: 1.0ms | Allocations: 137)
+Completed 200 OK in 57ms (Views: 43.6ms | ActiveRecord: 7.4ms | Allocations: 24050)
+
+
+Started GET "/" for ::1 at 2020-05-11 15:49:09 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5597)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 5807)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 2.9ms | Allocations: 1967)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.3ms | Allocations: 10984)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-05-11 15:49:17 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hX9Pah4PGWRfTn05lapgAq5SEw2Q1oEgsVUt4hYeqkKlXWrvlZ8Jenpc7hjw9YZE+UQFYGkCc444YM+mNP2mqw=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 186ms (ActiveRecord: 0.5ms | Allocations: 184740)
+
+
+Started GET "/" for ::1 at 2020-05-11 15:49:18 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 10.8ms | Allocations: 5594)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 5803)
+  Rendered shared/_flash.html.erb (Duration: 0.9ms | Allocations: 119)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 4.0ms | Allocations: 1082)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 10420)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 15:49:20 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 755)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 12.7ms | Allocations: 4342)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 1051)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 10031)
+
+
+Started GET "/users/auth/google_oauth2" for ::1 at 2020-05-11 15:49:39 +0800
+Started GET "/users/auth/google_oauth2" for ::1 at 2020-05-11 15:49:39 +0800
+Started GET "/users/auth/google_oauth2/callback?state=82bff853bc5a00b51c6a82de6dedcdb5ef3eaca7280795fd&code=4%2FzgHKjBSLvRMheELqigoQirNClNFlmWz33-YSYFCuL12aT4bpumSLEjef0HJt49puXs0sCaFC5mSbdT6gEp5IfS8&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent" for ::1 at 2020-05-11 15:49:42 +0800
+  
+AbstractController::ActionNotFound (The action 'google_oauth2' could not be found for Devise::OmniauthCallbacksController):
+  
+actionpack (6.0.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.3) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:420:in `call_app!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:373:in `callback_phase'
+omniauth-oauth2 (1.6.0) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+omniauth (1.9.1) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(799706020247190630)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddInfoToUser (20200511075913)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.5ms)[0m  [1m[35mALTER TABLE "users" ADD "name" character varying[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "avatar" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200511075913"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(799706020247190630)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/auth/google_oauth2/callback?state=82bff853bc5a00b51c6a82de6dedcdb5ef3eaca7280795fd&code=4%2FzgHKjBSLvRMheELqigoQirNClNFlmWz33-YSYFCuL12aT4bpumSLEjef0HJt49puXs0sCaFC5mSbdT6gEp5IfS8&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent" for ::1 at 2020-05-11 16:00:35 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::OmniauthCallbacksController#failure as HTML
+  Parameters: {"state"=>"82bff853bc5a00b51c6a82de6dedcdb5ef3eaca7280795fd", "code"=>"4/zgHKjBSLvRMheELqigoQirNClNFlmWz33-YSYFCuL12aT4bpumSLEjef0HJt49puXs0sCaFC5mSbdT6gEp5IfS8", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"0", "prompt"=>"consent"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 257)
+
+
+Started GET "/" for ::1 at 2020-05-11 16:00:35 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 8.1ms | Allocations: 5786)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.6ms | Allocations: 169)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered products/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 6938)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.7ms | Allocations: 1427)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.6ms | Allocations: 97)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.5ms | Allocations: 137)
+Completed 200 OK in 32ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 15593)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-11 16:00:38 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 760)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 165.9ms | Allocations: 185792)
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 1051)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 209ms (Views: 176.5ms | ActiveRecord: 3.5ms | Allocations: 199992)
+
+
+Started GET "/users/auth/google_oauth2" for ::1 at 2020-05-11 16:00:40 +0800
+Started GET "/users/auth/google_oauth2" for ::1 at 2020-05-11 16:00:40 +0800
+Started GET "/users/auth/google_oauth2/callback?state=f2b9d0c24255a16596469c09da28c61f49018086f2ee293b&code=4%2FzgHDRwJIQo6VNU7wS2nRBz1kTII84r5hfHq93HMbH35VEeQZ-IIu4mAaJEM_QJF98eCi0-FQMOLnBDoaz4YMNDs&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent" for ::1 at 2020-05-11 16:00:43 +0800
+Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"f2b9d0c24255a16596469c09da28c61f49018086f2ee293b", "code"=>"4/zgHDRwJIQo6VNU7wS2nRBz1kTII84r5hfHq93HMbH35VEeQZ-IIu4mAaJEM_QJF98eCi0-FQMOLnBDoaz4YMNDs", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"0", "prompt"=>"consent"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "google_oauth2"], ["uid", "110962806038325276416"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `from_omniauth'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `from_omniauth'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "katelin013@gmail.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `from_omniauth'
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "provider", "uid", "name", "avatar") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "katelin013@gmail.com"], ["encrypted_password", "$2a$11$tQpgYMgRhrEOtUGqSxdW9.515PkuYylx9iJ5GcN3OQmEU25KH/hZy"], ["created_at", "2020-05-11 08:00:44.133553"], ["updated_at", "2020-05-11 08:00:44.133553"], ["provider", "google_oauth2"], ["uid", "110962806038325276416"], ["name", "XuYao Lin"], ["avatar", "https://lh6.googleusercontent.com/-neRuuXykpNw/AAAAAAAAAAI/AAAAAAAAAeg/AMZuucl-BHyGjkjbGyXanyS4AJAqL7cCLw/photo.jpg"]]
+  ↳ app/models/user.rb:9:in `from_omniauth'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:9:in `from_omniauth'
+Redirected to http://localhost:3000/
+Completed 302 Found in 131ms (ActiveRecord: 3.7ms | Allocations: 6540)
+
+
+Started GET "/" for ::1 at 2020-05-11 16:00:44 +0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered shared/frontend/_carousel.html.erb (Duration: 6.1ms | Allocations: 5596)
+  Rendered shared/frontend/_product_list.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_subscribe.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered products/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5806)
+  Rendered shared/_flash.html.erb (Duration: 0.8ms | Allocations: 115)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/shared/frontend/_nav_bar.html.erb:31
+  Rendered shared/frontend/_nav_bar.html.erb (Duration: 3.0ms | Allocations: 1980)
+  Rendered shared/frontend/_top_menu.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/frontend/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 11335)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
