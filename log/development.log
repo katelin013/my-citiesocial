@@ -5905,3 +5905,1456 @@ Migrating to CreateVendors (20200511094923)
   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(799706020247190630)[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/admin/" for ::1 at 2020-05-12 13:56:39 +0800
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 1.3ms | Allocations: 201)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 111)
+Completed 200 OK in 61ms (Views: 16.0ms | ActiveRecord: 17.7ms | Allocations: 17795)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 13:59:00 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/admin/vendors"):
+  
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/vendor" for ::1 at 2020-05-12 13:59:39 +0800
+  
+ActionController::RoutingError (uninitialized constant Admin::VendorController
+Did you mean?  Admin::VendorsController):
+  
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/vendors" for ::1 at 2020-05-12 13:59:58 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.2ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 1.3ms | Allocations: 111)
+Completed 200 OK in 38ms (Views: 13.7ms | ActiveRecord: 5.0ms | Allocations: 14313)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:00:11 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.2ms | Allocations: 80)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 15ms (Views: 8.7ms | ActiveRecord: 0.4ms | Allocations: 5656)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:01:45 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.7ms | Allocations: 84)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 189)
+Completed 200 OK in 14ms (Views: 7.9ms | ActiveRecord: 0.5ms | Allocations: 5752)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:02:42 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 4701)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:02:43 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.5ms | Allocations: 4719)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:02:49 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.6ms | Allocations: 83)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 51)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 5049)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:02:50 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 50)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 4714)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:02:50 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 5)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 4731)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:04:02 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.3ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 1077)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms | Allocations: 6611)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <%= link_to admin_root_path %>
+      <i class="fab fa-themeisle"></i>
+    <% end %>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <%= link_to "廠商", admin_vendors_path, class: 'navbar-item'%>
+    </div>
+  </div>
+</nav>
+
+):
+1:    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+2:      <div class="navbar-brand">
+3:        <%= link_to admin_root_path %>
+4:          <i class="fab fa-themeisle"></i>
+5:        <% end %>
+6:    
+7:        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+8:          <span aria-hidden="true"></span>
+9:          <span aria-hidden="true"></span>
+10:          <span aria-hidden="true"></span>
+11:        </a>
+12:      </div>
+13:    
+14:      <div id="navbarBasicExample" class="navbar-menu">
+15:        <div class="navbar-start">
+16:          <%= link_to "廠商", admin_vendors_path, class: 'navbar-item'%>
+17:        </div>
+18:      </div>
+19:    </nav>
+  
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/layouts/application_bd.html.erb:15
+Started GET "/admin" for ::1 at 2020-05-12 14:04:33 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.3ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 1077)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms | Allocations: 6610)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <%= link_to admin_root_path %>
+      <i class="fab fa-themeisle"></i>
+    <% end %>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <%= link_to "廠商", admin_vendors_path, class: 'navbar-item'%>
+    </div>
+  </div>
+</nav>
+
+):
+1:    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+2:      <div class="navbar-brand">
+3:        <%= link_to admin_root_path %>
+4:          <i class="fab fa-themeisle"></i>
+5:        <% end %>
+6:    
+7:        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+8:          <span aria-hidden="true"></span>
+9:          <span aria-hidden="true"></span>
+10:          <span aria-hidden="true"></span>
+11:        </a>
+12:      </div>
+13:    
+14:      <div id="navbarBasicExample" class="navbar-menu">
+15:        <div class="navbar-start">
+16:          <%= link_to "廠商", admin_vendors_path, class: 'navbar-item'%>
+17:        </div>
+18:      </div>
+19:    </nav>
+  
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/shared/backend/_nav_bar.html.erb:22: syntax error, unexpected end, expecting end-of-input
+app/views/layouts/application_bd.html.erb:15
+Started GET "/admin" for ::1 at 2020-05-12 14:05:13 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.4ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 248)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 0.3ms | Allocations: 5801)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:05:37 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.3ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 255)
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 5797)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:05:49 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.8ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 88)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 5108)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:05:50 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 88)
+Completed 200 OK in 9ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 4749)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:07:14 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.4ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 255)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 5807)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:07:15 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.2ms | Allocations: 4750)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:07:17 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.9ms | Allocations: 160)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 75)
+Completed 200 OK in 13ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 5181)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:07:35 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.4ms | Allocations: 152)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 246)
+Completed 200 OK in 11ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 5873)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:07:59 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.5ms | Allocations: 154)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 246)
+Completed 200 OK in 11ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 5879)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:08:22 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.4ms | Allocations: 157)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 246)
+Completed 200 OK in 12ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 5870)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:09:24 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.4ms | Allocations: 157)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 247)
+Completed 200 OK in 22ms (Views: 5.1ms | ActiveRecord: 2.8ms | Allocations: 14474)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:09:26 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 4777)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:10:48 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.4ms | Allocations: 161)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 247)
+Completed 200 OK in 21ms (Views: 5.9ms | ActiveRecord: 2.7ms | Allocations: 14475)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 14:10:52 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 0.2ms | Allocations: 74)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 88)
+Completed 200 OK in 23ms (Views: 3.8ms | ActiveRecord: 6.8ms | Allocations: 9206)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 14:10:53 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 82)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 4763)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 14:11:12 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 0.2ms | Allocations: 86)
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 0.9ms | Allocations: 394)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 254)
+Completed 200 OK in 12ms (Views: 5.8ms | ActiveRecord: 0.3ms | Allocations: 6142)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 14:11:56 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 182.6ms | Allocations: 185854)
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 183.5ms | Allocations: 186159)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 245)
+Completed 200 OK in 192ms (Views: 188.4ms | ActiveRecord: 0.3ms | Allocations: 191814)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 14:16:22 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.3ms | Allocations: 715)
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 1.5ms | Allocations: 780)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 29ms (Views: 5.5ms | ActiveRecord: 5.1ms | Allocations: 18310)
+
+
+Started POST "/admin/vendors" for ::1 at 2020-05-12 14:16:26 +0800
+Processing by Admin::VendorsController#create as JS
+  Parameters: {"authenticity_token"=>"4e6/dsHxP9SH3NplpOoE9DWE9J3N0hLM6NjKZmGM9/WJNOSp3Vbt0FT2SQNvgvIMd3zinx3qVQxPioKILNg2Cg==", "vendor"=>{"title"=>"123", "description"=>"456", "online"=>"1"}, "commit"=>"Create Vendor"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/vendors_controller.rb:11:in `create'
+  [1m[36mVendor Create (5.4ms)[0m  [1m[32mINSERT INTO "vendors" ("title", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "123"], ["description", "456"], ["created_at", "2020-05-12 06:16:26.809906"], ["updated_at", "2020-05-12 06:16:26.809906"]]
+  ↳ app/controllers/admin/vendors_controller.rb:11:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/vendors_controller.rb:11:in `create'
+Redirected to http://localhost:3000/admin/vendors
+Completed 200 OK in 12ms (ActiveRecord: 6.4ms | Allocations: 4894)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:16:26 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 1.1ms | Allocations: 157)
+  Rendered shared/_flash.html.erb (Duration: 0.7ms | Allocations: 114)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.3ms | Allocations: 5364)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 14:16:33 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.3ms | Allocations: 652)
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 1.5ms | Allocations: 717)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 5464)
+
+
+Started POST "/admin/vendors" for ::1 at 2020-05-12 14:16:39 +0800
+Processing by Admin::VendorsController#create as JS
+  Parameters: {"authenticity_token"=>"/mXCOYQ5xTfY+A0rlFwM7WiVYayThjgWzcLwjvpmuidEtfdWhdklgyXThk5lyEl3O32mNIITfHN8LhQAO1Aq+A==", "vendor"=>{"title"=>"456", "description"=>"789", "online"=>"1"}, "commit"=>"Create Vendor"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/vendors_controller.rb:11:in `create'
+  [1m[36mVendor Create (0.3ms)[0m  [1m[32mINSERT INTO "vendors" ("title", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "456"], ["description", "789"], ["created_at", "2020-05-12 06:16:39.403946"], ["updated_at", "2020-05-12 06:16:39.403946"]]
+  ↳ app/controllers/admin/vendors_controller.rb:11:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/vendors_controller.rb:11:in `create'
+Redirected to http://localhost:3000/admin/vendors
+Completed 200 OK in 6ms (ActiveRecord: 0.9ms | Allocations: 4682)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:16:39 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 72)
+Completed 200 OK in 7ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 4866)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:20:07 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 10.3ms | Allocations: 5384)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 247)
+Completed 200 OK in 35ms (Views: 12.8ms | ActiveRecord: 6.1ms | Allocations: 19952)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:23:29 +0800
+  
+SyntaxError (/Users/xuyaolin/Documents/ruby/my_citiesocail/app/controllers/admin/vendors_controller.rb:29: syntax error, unexpected end
+  end
+  ^~~
+/Users/xuyaolin/Documents/ruby/my_citiesocail/app/controllers/admin/vendors_controller.rb:36: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/admin/vendors_controller.rb:29: syntax error, unexpected end
+app/controllers/admin/vendors_controller.rb:36: syntax error, unexpected end-of-input, expecting end
+app/controllers/admin/vendors_controller.rb:29: syntax error, unexpected end
+app/controllers/admin/vendors_controller.rb:36: syntax error, unexpected end-of-input, expecting end
+app/controllers/admin/vendors_controller.rb:29: syntax error, unexpected end
+app/controllers/admin/vendors_controller.rb:36: syntax error, unexpected end-of-input, expecting end
+Started POST "/__web_console/repl_sessions/0c90a62667aba6a3e196d3e37f8bc6b3/trace" for ::1 at 2020-05-12 14:23:35 +0800
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:23:35 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 8.3ms | Allocations: 5071)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 28ms (Views: 10.3ms | ActiveRecord: 5.0ms | Allocations: 18797)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:23:35 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 1.9ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.4ms | Allocations: 5976)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:23:36 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:21:in `edit'
+Completed 406 Not Acceptable in 11ms (ActiveRecord: 0.6ms | Allocations: 5867)
+
+
+  
+ActionController::MissingExactTemplate (Admin::VendorsController#edit is missing a template for request formats: text/html):
+  
+actionpack (6.0.3) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.9.1) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.1) lib/omniauth/strategy.rb:169:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:24:27 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.1ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:21:in `edit'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.5ms | Allocations: 1031)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 2.1ms | Allocations: 1345)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 246)
+Completed 200 OK in 32ms (Views: 6.8ms | ActiveRecord: 5.4ms | Allocations: 20418)
+
+
+Started PATCH "/admin/vendors/1" for ::1 at 2020-05-12 14:26:03 +0800
+Processing by Admin::VendorsController#update as JS
+  Parameters: {"authenticity_token"=>"S8qsXAnJ/AtKauamqESyX3DL9zcEX8rsJKkhAn5OSPcjEPeDFW4uD5lAdcBjLESnMjPhNdRnjSyD+2nsMxqJCA==", "vendor"=>{"title"=>"123", "description"=>"test123", "online"=>"1"}, "commit"=>"Update Vendor", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+No template found for Admin::VendorsController#update, rendering head :no_content
+Completed 204 No Content in 7ms (ActiveRecord: 0.2ms | Allocations: 5257)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:26:36 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:21:in `edit'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.1ms | Allocations: 755)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 1.2ms | Allocations: 820)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 32ms (Views: 6.1ms | ActiveRecord: 5.1ms | Allocations: 19009)
+
+
+Started PATCH "/admin/vendors/1" for ::1 at 2020-05-12 14:26:41 +0800
+Processing by Admin::VendorsController#update as JS
+  Parameters: {"authenticity_token"=>"v2SAWolDCl95VhY9V8n8xejj/hTLtibKK/2nFetVe6bXvtuFleTYW6p8hVucoQo9qhvoFhuOYQqMr+/7pgG6WQ==", "vendor"=>{"title"=>"123", "description"=>"test123", "online"=>"1"}, "commit"=>"Update Vendor", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin/vendors
+Completed 200 OK in 3ms (ActiveRecord: 0.2ms | Allocations: 2280)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:26:41 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.7ms | Allocations: 1511)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 75)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.4ms | Allocations: 6398)
+
+
+Started GET "/admin/vendors/2/edit" for ::1 at 2020-05-12 14:28:58 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 137.0ms | Allocations: 78387)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 137.2ms | Allocations: 78455)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 3.9ms | Allocations: 89545)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe72082ea88>:0x00007fe72082cf30>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:29:07 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 10.1ms | Allocations: 5118)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 17ms (Views: 10.8ms | ActiveRecord: 3.1ms | Allocations: 10116)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:29:07 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 3.2ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 0.6ms | Allocations: 5971)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:29:38 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.4ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 3.0ms | Allocations: 1233)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.8ms | Allocations: 5979)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:29:39 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.0ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.5ms | Allocations: 5976)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:30:27 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 148.0ms | Allocations: 78425)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 148.3ms | Allocations: 78493)
+Completed 500 Internal Server Error in 153ms (ActiveRecord: 0.3ms | Allocations: 80776)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe72082ea88>:0x00007fe726993a58>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:30:51 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 137.2ms | Allocations: 78358)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 137.4ms | Allocations: 78426)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 2.8ms | Allocations: 89525)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe72705b818>:0x00007fe727059f68>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:31:04 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 9.1ms | Allocations: 5102)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 21ms (Views: 10.2ms | ActiveRecord: 3.0ms | Allocations: 10089)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:31:09 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 139.9ms | Allocations: 78419)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 140.3ms | Allocations: 78488)
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 0.5ms | Allocations: 80779)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe72705b818>:0x00007fe72694a358>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:31:11 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.9ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 3.8ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 1.2ms | Allocations: 5976)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:31:11 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.6ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.5ms | Allocations: 5974)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:31:15 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 8.5ms | Allocations: 5071)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 28ms (Views: 9.5ms | ActiveRecord: 5.1ms | Allocations: 18823)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:31:16 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 139.5ms | Allocations: 78421)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 139.7ms | Allocations: 78489)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.2ms | Allocations: 80780)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe7263f8670>:0x00007fe7271688c8>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:31:18 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.9ms | Allocations: 1233)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.4ms | Allocations: 5980)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:31:19 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.6ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 0.6ms | Allocations: 5975)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 14:31:33 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.2ms | Allocations: 708)
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 2.1ms | Allocations: 876)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 5771)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:31:34 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.9ms | Allocations: 1234)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.5ms | Allocations: 5978)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:31:36 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 137.8ms | Allocations: 78422)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 138.0ms | Allocations: 78490)
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 0.3ms | Allocations: 80778)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe7263f8670>:0x00007fe7220a8f00>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:33:27 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 8.3ms | Allocations: 5071)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 31ms (Views: 10.8ms | ActiveRecord: 4.8ms | Allocations: 18812)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:33:27 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.1ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms | Allocations: 5978)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:33:33 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 140.6ms | Allocations: 78424)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 140.8ms | Allocations: 78492)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.3ms | Allocations: 80788)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe71ef7bd60>:0x00007fe7268c44b0>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:33:50 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.8ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 5.3ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 21ms (Views: 10.8ms | ActiveRecord: 2.0ms | Allocations: 5976)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:33:50 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 4.0ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.6ms | Allocations: 5968)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:34:05 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 2.8ms | Allocations: 11701)
+
+
+  
+NoMethodError (undefined method `id' for #<ActionController::Parameters:0x00007fe71f65a9b0>):
+  
+app/controllers/admin/vendors_controller.rb:23:in `edit'
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:34:18 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 129.4ms | Allocations: 78381)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 129.6ms | Allocations: 78449)
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 2.7ms | Allocations: 89555)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe71e7e2c98>:0x00007fe71e7e1370>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+  [1m[36mVendor Load (0.4ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" ORDER BY "vendors"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:36:04 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:24:in `edit'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 134.7ms | Allocations: 78381)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 134.9ms | Allocations: 78449)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 5.2ms | Allocations: 94304)
+
+
+  
+ActionView::Template::Error (undefined method `admin_path' for #<#<Class:0x00007fe71f7664d0>:0x00007fe72516ff30>
+Did you mean?  audio_path):
+    1: <%= form_with(model: [:admin, vendor]) do |form| %>
+    2:   <div class="field">
+    3:     <%= form.label :title, '名稱', class: 'label' %>
+    4:     <%= form.text_field :title, class: 'input' %>
+  
+app/views/admin/vendors/_form.html.erb:1
+app/views/admin/vendors/edit.html.erb:2
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:37:07 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:39:in `find_vendor'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.1ms | Allocations: 755)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 1.3ms | Allocations: 820)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 29ms (Views: 5.6ms | ActiveRecord: 5.0ms | Allocations: 19067)
+
+
+Started PATCH "/admin/vendors/1" for ::1 at 2020-05-12 14:37:17 +0800
+Processing by Admin::VendorsController#update as JS
+  Parameters: {"authenticity_token"=>"Ag8Q4nrHBj26jxn6zEZUeYOjfTRLH5KfRKd4kWEpoJNq1Us9ZmDUOWmlipwHLqKBwVtrNpsn1V/j9TB/LH1hbA==", "vendor"=>{"title"=>"123", "description"=>"test123", "online"=>"1"}, "commit"=>"Update Vendor", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:39:in `find_vendor'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/vendors_controller.rb:25:in `update'
+  [1m[36mVendor Update (2.3ms)[0m  [1m[33mUPDATE "vendors" SET "description" = $1, "updated_at" = $2 WHERE "vendors"."id" = $3[0m  [["description", "test123"], ["updated_at", "2020-05-12 06:37:17.926731"], ["id", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:25:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/vendors_controller.rb:25:in `update'
+No template found for Admin::VendorsController#update, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 3.1ms | Allocations: 5329)
+
+
+Started PATCH "/admin/vendors/1" for ::1 at 2020-05-12 14:37:34 +0800
+Processing by Admin::VendorsController#update as JS
+  Parameters: {"authenticity_token"=>"Ag8Q4nrHBj26jxn6zEZUeYOjfTRLH5KfRKd4kWEpoJNq1Us9ZmDUOWmlipwHLqKBwVtrNpsn1V/j9TB/LH1hbA==", "vendor"=>{"title"=>"123", "description"=>"test123", "online"=>"1"}, "commit"=>"Update Vendor", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.1ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:39:in `find_vendor'
+Redirected to http://localhost:3000/admin/vendors/1/edit
+Completed 200 OK in 23ms (ActiveRecord: 4.8ms | Allocations: 15904)
+
+
+Started GET "/admin/vendors/1/edit" for ::1 at 2020-05-12 14:37:34 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:39:in `find_vendor'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 2.0ms | Allocations: 752)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 2.3ms | Allocations: 817)
+  Rendered shared/_flash.html.erb (Duration: 1.1ms | Allocations: 118)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.5ms | Allocations: 6633)
+
+
+Started GET "/admin" for ::1 at 2020-05-12 14:37:48 +0800
+Processing by Admin::ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/products/index.html.erb within layouts/application_bd
+  Rendered admin/products/index.html.erb within layouts/application_bd (Duration: 0.6ms | Allocations: 79)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 89)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 5116)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:37:50 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (1.6ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 4.5ms | Allocations: 1241)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 75)
+Completed 200 OK in 14ms (Views: 7.2ms | ActiveRecord: 1.9ms | Allocations: 5991)
+
+
+Started GET "/admin/vendors/2/edit" for ::1 at 2020-05-12 14:37:52 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.4ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:39:in `find_vendor'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.7ms | Allocations: 694)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 2.0ms | Allocations: 759)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 72)
+Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 0.9ms | Allocations: 6068)
+
+
+Started PATCH "/admin/vendors/2" for ::1 at 2020-05-12 14:37:55 +0800
+Processing by Admin::VendorsController#update as JS
+  Parameters: {"authenticity_token"=>"gkVYznelLDYcT5vuOcJVfhVflkMwZKE3Lrg72awifQzdO1y9+Xw7KCRPdu8sdpn2mX2nmciCGznZlmmrucuE3g==", "vendor"=>{"title"=>"456", "description"=>"978", "online"=>"1"}, "commit"=>"Update Vendor", "id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.1ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:39:in `find_vendor'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/vendors_controller.rb:25:in `update'
+  [1m[36mVendor Update (0.2ms)[0m  [1m[33mUPDATE "vendors" SET "description" = $1, "updated_at" = $2 WHERE "vendors"."id" = $3[0m  [["description", "978"], ["updated_at", "2020-05-12 06:37:55.725115"], ["id", 2]]
+  ↳ app/controllers/admin/vendors_controller.rb:25:in `update'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/vendors_controller.rb:25:in `update'
+Redirected to http://localhost:3000/admin/vendors/2/edit
+Completed 200 OK in 7ms (ActiveRecord: 1.1ms | Allocations: 5324)
+
+
+Started GET "/admin/vendors/2/edit" for ::1 at 2020-05-12 14:37:55 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:39:in `find_vendor'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.0ms | Allocations: 692)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 1.2ms | Allocations: 757)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 10ms (Views: 5.5ms | ActiveRecord: 0.5ms | Allocations: 6162)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:37:56 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 3.1ms | Allocations: 1231)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 0.6ms | Allocations: 5974)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:39:32 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 7.8ms | Allocations: 5072)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 76)
+Completed 200 OK in 29ms (Views: 10.4ms | ActiveRecord: 4.3ms | Allocations: 18813)
+
+
+Started DELETE "/admin/vendors/1" for ::1 at 2020-05-12 14:39:35 +0800
+Processing by Admin::VendorsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"v3cSegNZQakmYKJrmgF/goklQiJMl8KTWX41VQub4kzXrUmlH/6TrfVKMQ1RaYl6y91UIJyvhVP+LH27Rs8jsw==", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.1ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:44:in `find_vendor'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/vendors_controller.rb:33:in `destroy'
+  [1m[36mVendor Destroy (0.2ms)[0m  [1m[31mDELETE FROM "vendors" WHERE "vendors"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:33:in `destroy'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/vendors_controller.rb:33:in `destroy'
+Redirected to http://localhost:3000/admin/vendors
+Completed 302 Found in 7ms (ActiveRecord: 1.2ms | Allocations: 4804)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:39:35 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 1.5ms | Allocations: 952)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.4ms | Allocations: 5785)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 14:43:20 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.4ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors"[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 11.4ms | Allocations: 5406)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 259)
+Completed 200 OK in 53ms (Views: 23.5ms | ActiveRecord: 6.3ms | Allocations: 23422)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(799706020247190630)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeleteToVendor (20200512064501)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.0ms)[0m  [1m[35mALTER TABLE "vendors" ADD "deleted_at" timestamp[0m
+  [1m[35m (6.5ms)[0m  [1m[35mCREATE  INDEX  "index_vendors_on_deleted_at" ON "vendors"  ("deleted_at")[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200512064501"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(799706020247190630)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/admin/vendors" for ::1 at 2020-05-12 15:01:12 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (3.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 15.2ms | Allocations: 5702)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.7ms | Allocations: 264)
+Completed 200 OK in 76ms (Views: 38.4ms | ActiveRecord: 10.4ms | Allocations: 24671)
+
+
+Started GET "/admin/vendors/new" for ::1 at 2020-05-12 15:01:15 +0800
+Processing by Admin::VendorsController#new as HTML
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/new.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 169.1ms | Allocations: 183266)
+  Rendered admin/vendors/new.html.erb within layouts/application_bd (Duration: 170.9ms | Allocations: 183576)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 74)
+Completed 200 OK in 184ms (Views: 175.1ms | ActiveRecord: 4.1ms | Allocations: 188598)
+
+
+Started POST "/admin/vendors" for ::1 at 2020-05-12 15:01:19 +0800
+Processing by Admin::VendorsController#create as JS
+  Parameters: {"authenticity_token"=>"SJ5bPjRbYa1pJLl1eyT6gS4QA3ZkkBOHRjGi452VLj/yTm5RNbuBGZQPMhCKsL8bffjE7nUFV+L33UZtXKO+4A==", "vendor"=>{"title"=>"ggg", "description"=>"123", "online"=>"1"}, "commit"=>"Create Vendor"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/vendors_controller.rb:14:in `create'
+  [1m[36mVendor Create (0.8ms)[0m  [1m[32mINSERT INTO "vendors" ("title", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "ggg"], ["description", "123"], ["created_at", "2020-05-12 07:01:19.884807"], ["updated_at", "2020-05-12 07:01:19.884807"]]
+  ↳ app/controllers/admin/vendors_controller.rb:14:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/vendors_controller.rb:14:in `create'
+Redirected to http://localhost:3000/admin/vendors
+Completed 200 OK in 9ms (ActiveRecord: 1.4ms | Allocations: 4989)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 15:01:19 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 3.5ms | Allocations: 1247)
+  Rendered shared/_flash.html.erb (Duration: 0.9ms | Allocations: 120)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.5ms | Allocations: 6396)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 15:01:23 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 2.1ms | Allocations: 1244)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 73)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms | Allocations: 6054)
+
+
+Started DELETE "/admin/vendors/3" for ::1 at 2020-05-12 15:01:31 +0800
+Processing by Admin::VendorsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4i3jThAg1ShYhIg7R36j8GQhgbhBs6HaktmkkzbD5M2K97iRDIcHLIuuG12MFlUIJtmXupGL5ho1i+x9e5clMg==", "id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/vendors_controller.rb:33:in `destroy'
+  [1m[36mVendor Update (0.3ms)[0m  [1m[33mUPDATE "vendors" SET "deleted_at" = $1, "updated_at" = $2 WHERE "vendors"."id" = $3[0m  [["deleted_at", "2020-05-12 07:01:31.763705"], ["updated_at", "2020-05-12 07:01:31.763723"], ["id", 3]]
+  ↳ app/controllers/admin/vendors_controller.rb:33:in `destroy'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/vendors_controller.rb:33:in `destroy'
+Redirected to http://localhost:3000/admin/vendors
+Completed 302 Found in 9ms (ActiveRecord: 1.1ms | Allocations: 5021)
+
+
+Started GET "/admin/vendors" for ::1 at 2020-05-12 15:01:31 +0800
+Processing by Admin::VendorsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/vendors/index.html.erb within layouts/application_bd
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL[0m
+  ↳ app/views/admin/vendors/index.html.erb:15
+  Rendered admin/vendors/index.html.erb within layouts/application_bd (Duration: 1.8ms | Allocations: 965)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.4ms | Allocations: 5866)
+
+
+  [1m[36mVendor Load (1.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL ORDER BY "vendors"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mVendor Load (0.6ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL[0m
+Started GET "/admin/vendors/2/edit" for ::1 at 2020-05-12 15:04:35 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.9ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+  Rendering admin/vendors/edit.html.erb within layouts/application_bd
+  Rendered admin/vendors/_form.html.erb (Duration: 1.2ms | Allocations: 721)
+  Rendered admin/vendors/edit.html.erb within layouts/application_bd (Duration: 2.2ms | Allocations: 895)
+  Rendered shared/backend/_nav_bar.html.erb (Duration: 0.1ms | Allocations: 75)
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 1.1ms | Allocations: 6641)
+
+
+Started GET "/admin/vendors/12/edit" for ::1 at 2020-05-12 15:55:05 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.4ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+Completed 200 OK in 22ms (ActiveRecord: 3.3ms | Allocations: 12523)
+
+
+Started GET "/admin/vendors/12/edit" for ::1 at 2020-05-12 15:55:17 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+Completed 404 Not Found in 26ms (ActiveRecord: 8.7ms | Allocations: 13004)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Vendor with 'id'=12 [WHERE "vendors"."deleted_at" IS NULL]):
+  
+app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+Started GET "/admin/vendors/12/edit" for ::1 at 2020-05-12 15:56:48 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.3ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+DEPRECATION WARNING: render file: should be given the absolute path to a file (called from record_not_found at /Users/xuyaolin/Documents/ruby/my_citiesocail/app/controllers/application_controller.rb:7)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 6.8ms | Allocations: 14670)
+
+
+  
+ActionView::MissingTemplate (Missing template #{Rails.root}/public/404.html with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/devise-4.7.1/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail"
+  * "/"
+):
+  
+app/controllers/application_controller.rb:7:in `record_not_found'
+Started GET "/admin/vendors/12/edit" for ::1 at 2020-05-12 15:57:10 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+DEPRECATION WARNING: render file: should be given the absolute path to a file (called from record_not_found at /Users/xuyaolin/Documents/ruby/my_citiesocail/app/controllers/application_controller.rb:7)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 5.6ms | Allocations: 13774)
+
+
+  
+ActionView::MissingTemplate (Missing template #{Rails.root}/public/404.html with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/devise-4.7.1/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.3/app/views"
+  * "/Users/xuyaolin/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.3/app/views"
+  * "/Users/xuyaolin/Documents/ruby/my_citiesocail"
+  * "/"
+):
+  
+app/controllers/application_controller.rb:7:in `record_not_found'
+Started GET "/admin/vendors/12/edit" for ::1 at 2020-05-12 15:57:26 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.1ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+  Rendering public/404.html
+  Rendered public/404.html (Duration: 0.1ms | Allocations: 3)
+Completed 404 Not Found in 22ms (Views: 2.9ms | ActiveRecord: 4.7ms | Allocations: 13428)
+
+
+Started GET "/admin/vendors/12/edit" for ::1 at 2020-05-12 15:57:58 +0800
+Processing by Admin::VendorsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mVendor Load (0.2ms)[0m  [1m[34mSELECT "vendors".* FROM "vendors" WHERE "vendors"."deleted_at" IS NULL AND "vendors"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/admin/vendors_controller.rb:41:in `find_vendor'
+  Rendering public/404.html
+  Rendered public/404.html (Duration: 0.1ms | Allocations: 3)
+Completed 404 Not Found in 21ms (Views: 0.6ms | ActiveRecord: 5.6ms | Allocations: 13226)
+
+
